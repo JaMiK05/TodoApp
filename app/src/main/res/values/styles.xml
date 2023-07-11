@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CornerSize50Percent" parent="Widget.Design.FloatingActionButton">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+    </style>
+    <style name="floating" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="shapeAppearanceOverlay">@style/CornerSize50Percent</item>
+    </style>
+
+    <style name="SelectedDateStyle">
+        <item name="android:textColor">#2196F3</item> <!-- Belgilangan kunning matn rangi -->
+        <item name="android:background">#009688</item> <!-- Belgilangan kunning fon rangi -->
+    </style>
+
+</resources>

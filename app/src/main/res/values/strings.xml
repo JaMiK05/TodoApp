@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Play Market To Do</string>
+    <string name="no_task">oops\nThere are currently\nno tasks available!!!</string>
+    <string name="no_completed_task">oops\nThere is currently\nno completed task!!!</string>
+    <string name="no_incompleted_task">oops\nThere are currently\nno pending tasks!!!</string>
+
+    <string-array name="intro_titles">
+        <item>Manage your tasks</item>
+        <item>Create daily routine</item>
+        <item>Organized your tasks</item>
+    </string-array>
+
+    <string name="completed_task_message">Did you actually incomplete the task?</string>
+    <string name="in_completed_task_message">Did you actually complete the task?</string>
+    <string name="delete_task">Are you sure you\nwant to delete it?</string>
+
+    <string-array name="intro_subtitles">
+        <item>You can easily manage all of your daily tasks in DoMe for free</item>
+        <item>In Uptodo  you can create your personalized routine to stay productive</item>
+        <item>You can organize your daily tasks by adding your tasks into separate categories</item>
+    </string-array>
+
+
+</resources>
