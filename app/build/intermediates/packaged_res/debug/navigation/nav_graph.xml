@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/appSplashFragment">
+
+    <fragment
+        android:id="@+id/appSplashFragment"
+        android:name="uz.gita.to_do_jamik.presentation.screens.splash.AppSplashFragment"
+        android:label="AppSplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_appSplashFragment_to_onBoarding"
+            app:destination="@id/onBoarding"
+            app:popUpTo="@id/appSplashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_appSplashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/appSplashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoarding"
+        android:name="uz.gita.to_do_jamik.presentation.screens.onboarding.OnBoardingFragment"
+        android:label="OnBoarding"
+        tools:layout="@layout/screen_intro">
+        <action
+            android:id="@+id/action_onBoarding_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.gita.to_do_jamik.presentation.screens.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="uz.gita.to_do_jamik.presentation.screens.addtask.AddTaskFragment"
+        android:label="AddTaskFragment"
+        tools:layout="@layout/fragment_add_task">
+        <argument
+            android:name="task"
+            app:argType="uz.gita.to_do_jamik.data.model.TaskData"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\dialog_info_task.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\dialog_info_task.xml"
+    },
+    {
+        "merged": "uz.gita.to_do_jamik.app-mergeDebugResources-55:/layout/dialog_notcompleted.xml",
+        "source": "uz.gita.to_do_jamik.app-main-58:/layout/dialog_notcompleted.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\task_delete_dialog.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\task_delete_dialog.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\fragment_add_task.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\fragment_add_task.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\page_intro.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\page_intro.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\dialog_calendar.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\dialog_calendar.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\dialog_edit_status_task.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\dialog_edit_status_task.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\fragment_splash.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\dialog_choose_time.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\dialog_choose_time.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\activity_main.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\screen_intro.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\screen_intro.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\list_item_todo.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\list_item_todo.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\fragment_home.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\fragment_home.xml"
+    }
+]

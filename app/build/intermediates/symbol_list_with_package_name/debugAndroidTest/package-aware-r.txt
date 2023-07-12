@@ -1,0 +1,3 @@
+uz.gita.to_do_jamik.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

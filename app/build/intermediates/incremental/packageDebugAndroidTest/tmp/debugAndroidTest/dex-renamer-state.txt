@@ -1,0 +1,10 @@
+#Tue Jul 11 21:32:40 UZT 2023
+base.2=D\:\\PlayMarketToDo\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\13\\classes.dex
+path.2=13/classes.dex
+base.1=D\:\\PlayMarketToDo\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.1=0/classes.dex
+base.0=D\:\\PlayMarketToDo\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

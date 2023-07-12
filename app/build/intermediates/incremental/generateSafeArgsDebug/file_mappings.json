@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["uz.gita.to_do_jamik.presentation.screens.splash.AppSplashFragmentDirections","uz.gita.to_do_jamik.presentation.screens.onboarding.OnBoardingFragmentDirections","uz.gita.to_do_jamik.presentation.screens.home.HomeFragmentDirections","uz.gita.to_do_jamik.presentation.screens.addtask.AddTaskFragmentArgs"]}]
