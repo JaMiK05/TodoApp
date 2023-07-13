@@ -8,6 +8,10 @@
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable\\timer_clock.png"
     },
     {
+        "merged": "uz.gita.to_do_jamik.app-merged_res-56:/drawable-v24_bg_todo_completed.xml.flat",
+        "source": "uz.gita.to_do_jamik.app-main-58:/drawable-v24/bg_todo_completed.xml"
+    },
+    {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -56,20 +60,20 @@
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable\\down_arrow.png"
     },
     {
-        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable-v24_bg_floating_action_btn.xml.flat",
-        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable-v24\\bg_floating_action_btn.xml"
-    },
-    {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\layout_dialog_info_task.xml.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\dialog_info_task.xml"
     },
     {
-        "merged": "uz.gita.to_do_jamik.app-merged_res-56:/layout_dialog_notcompleted.xml.flat",
-        "source": "uz.gita.to_do_jamik.app-main-58:/layout/dialog_notcompleted.xml"
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable-v24_bg_floating_action_btn.xml.flat",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable-v24\\bg_floating_action_btn.xml"
     },
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable_no_task.png.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable\\no_task.png"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\layout_dialog_notcompleted.xml.flat",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\dialog_notcompleted.xml"
     },
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable-v24_ic_add.xml.flat",
@@ -128,10 +132,6 @@
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\task_delete_dialog.xml"
     },
     {
-        "merged": "uz.gita.to_do_jamik.app-merged_res-56:/drawable-v24_question_icon.png.flat",
-        "source": "uz.gita.to_do_jamik.app-main-58:/drawable-v24/question_icon.png"
-    },
-    {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable_trash_icon.png.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable\\trash_icon.png"
     },
@@ -176,6 +176,14 @@
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable-v24_question_icon.png.flat",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable-v24\\question_icon.png"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable_back_icon_ios.xml.flat",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable\\back_icon_ios.xml"
+    },
+    {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\mipmap-mdpi\\ic_launcher.webp"
     },
@@ -186,6 +194,10 @@
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable_write_pensil.png.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable\\write_pensil.png"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable_home_category_btn_select.xml.flat",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable\\home_category_btn_select.xml"
     },
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
@@ -200,12 +212,12 @@
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable\\ic_intro1.png"
     },
     {
-        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\layout_screen_intro.xml.flat",
-        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\screen_intro.xml"
-    },
-    {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\drawable_edit_text_back.xml.flat",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\drawable\\edit_text_back.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\layout_screen_intro.xml.flat",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\screen_intro.xml"
     },
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-merged_res-56:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

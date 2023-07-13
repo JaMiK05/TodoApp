@@ -1,6 +1,8 @@
 package uz.gita.to_do_jamik.workmanager
 
 import android.content.Context
+import android.os.Vibrator
+import androidx.core.content.ContextCompat.getSystemService
 import androidx.hilt.work.HiltWorker
 import androidx.work.*
 import dagger.assisted.*
@@ -16,10 +18,7 @@ class MyWorker @AssistedInject constructor(
     @Assisted val context: Context,
     @Assisted workerParameters: WorkerParameters,
     private val dao: TaskDao,
-) :
-    Worker(context, workerParameters) {
-
-
+) : Worker(context, workerParameters) {
     override fun doWork(): Result {
         val id = inputData.getInt("id", 0)
         val title = inputData.getString("title").toString()

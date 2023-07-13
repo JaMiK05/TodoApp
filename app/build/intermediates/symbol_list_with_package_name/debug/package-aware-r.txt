@@ -2492,7 +2492,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
-drawable back_arrow
+drawable back_icon_ios
 drawable bg_floating_action_btn
 drawable bg_icons
 drawable bg_intro_btn_next
@@ -2517,6 +2517,7 @@ drawable design_snackbar_background
 drawable down_arrow
 drawable edit_text_back
 drawable home_category_btn
+drawable home_category_btn_select
 drawable ic_add
 drawable ic_clock_black_24dp
 drawable ic_intro1

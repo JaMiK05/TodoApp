@@ -104,14 +104,26 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     private fun btnProvide() {
         binding.apply {
             alltaskbtn.setOnClickListener {
+                alltaskbtn.setBackgroundResource(R.drawable.home_category_btn_select)
+                completedtaskbtn.setBackgroundResource(R.drawable.home_category_btn)
+                uncompletedbtn.setBackgroundResource(R.drawable.home_category_btn)
+
                 viewModel.getTasks(0)
                 notTaskTxt.text = requireActivity().getString(R.string.no_task)
             }
             completedtaskbtn.setOnClickListener {
+                alltaskbtn.setBackgroundResource(R.drawable.home_category_btn)
+                completedtaskbtn.setBackgroundResource(R.drawable.home_category_btn_select)
+                uncompletedbtn.setBackgroundResource(R.drawable.home_category_btn)
+
                 viewModel.getTasks(1)
                 notTaskTxt.text = requireActivity().getString(R.string.no_completed_task)
             }
             uncompletedbtn.setOnClickListener {
+                alltaskbtn.setBackgroundResource(R.drawable.home_category_btn)
+                completedtaskbtn.setBackgroundResource(R.drawable.home_category_btn)
+                uncompletedbtn.setBackgroundResource(R.drawable.home_category_btn_select)
+
                 viewModel.getTasks(2)
                 notTaskTxt.text = requireActivity().getString(R.string.no_incompleted_task)
             }
@@ -184,5 +196,4 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             }
         }
     }
-
 }

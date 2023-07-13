@@ -24,8 +24,9 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="8dp"
-            android:src="@drawable/back_arrow"
-            tools:ignore="ContentDescription" />
+            android:paddingStart="15dp"
+            android:src="@drawable/back_icon_ios"
+            tools:ignore="ContentDescription,RtlSymmetry" />
 
         <TextView
             android:id="@+id/tv_home"
@@ -84,7 +85,7 @@
             android:drawableStart="@drawable/write_pensil"
             android:drawablePadding="16dp"
             android:hint="Description"
-            android:maxLines="5"
+            android:maxLines="3"
             android:outlineProvider="bounds"
             android:padding="15dp"
             android:paddingHorizontal="16dp"
@@ -220,10 +221,10 @@
             android:layout_height="wrap_content"
             android:background="?selectableItemBackground"
             android:clickable="true"
-            android:textColor="#F44336"
             android:drawablePadding="10dp"
             android:focusable="true"
             android:text="Delete task?"
+            android:textColor="#F44336"
             android:textSize="20sp"
             app:drawableStartCompat="@drawable/trash_icon"
             tools:ignore="HardcodedText" />

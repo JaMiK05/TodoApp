@@ -1,6 +1,7 @@
 package uz.gita.to_do_jamik.workmanager
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -11,9 +12,16 @@ import android.content.pm.PackageManager
 import android.media.RingtoneManager
 import android.net.Uri
 import android.os.Build
+import android.os.VibrationEffect
+import android.os.Vibrator
 import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 import uz.gita.to_do_jamik.MainActivity
 import uz.gita.to_do_jamik.R
 import javax.inject.Singleton
@@ -28,6 +36,8 @@ class NotificationHelper(private val context: Context) {
     private val CHANNEL_NAME = "Todo app Notification"
     private val NOTIFICATION_ID = 1
     private val soundUri: Uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+    private val vibrator = context.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+    private val scope = CoroutineScope(Job() + Dispatchers.IO)
 
     private fun createNotificationChannel() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -42,6 +52,7 @@ class NotificationHelper(private val context: Context) {
         }
     }
 
+    @SuppressLint("NewApi")
     fun createNotification(title: String, desc: String) {
         createNotificationChannel()
         val intent = Intent(context, MainActivity::class.java).apply {
@@ -66,6 +77,18 @@ class NotificationHelper(private val context: Context) {
             ) != PackageManager.PERMISSION_GRANTED
         ) {
             return
+        }
+
+        scope.launch {
+            for (i in 0 until 2) {
+                vibrator.vibrate(
+                    VibrationEffect.createOneShot(
+                        400,
+                        VibrationEffect.DEFAULT_AMPLITUDE
+                    )
+                )
+                delay(600)
+            }
         }
         NotificationManagerCompat.from(context).notify(NOTIFICATION_ID, notification)
     }

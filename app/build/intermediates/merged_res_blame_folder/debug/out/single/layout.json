@@ -4,10 +4,6 @@
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\dialog_info_task.xml"
     },
     {
-        "merged": "uz.gita.to_do_jamik.app-mergeDebugResources-55:/layout/dialog_notcompleted.xml",
-        "source": "uz.gita.to_do_jamik.app-main-58:/layout/dialog_notcompleted.xml"
-    },
-    {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\task_delete_dialog.xml",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\task_delete_dialog.xml"
     },
@@ -32,12 +28,20 @@
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\fragment_splash.xml"
     },
     {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\dialog_notcompleted.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\dialog_notcompleted.xml"
+    },
+    {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\dialog_choose_time.xml",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\dialog_choose_time.xml"
     },
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\activity_main.xml",
         "source": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-main-58:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "uz.gita.to_do_jamik.app-mergeDebugResources-55:/layout/fragment_home.xml",
+        "source": "uz.gita.to_do_jamik.app-main-58:/layout/fragment_home.xml"
     },
     {
         "merged": "C:\\Program Files\\Android\\Android Studio\\daemon\\8.0\\uz.gita.to_do_jamik.app-mergeDebugResources-55:\\layout\\screen_intro.xml",

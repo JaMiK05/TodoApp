@@ -2491,7 +2491,7 @@ int drawable abc_textfield_search_material 0x7f080054
 int drawable abc_vector_test 0x7f080055
 int drawable avd_hide_password 0x7f080056
 int drawable avd_show_password 0x7f080057
-int drawable back_arrow 0x7f080058
+int drawable back_icon_ios 0x7f0800b7
 int drawable bg_floating_action_btn 0x7f080059
 int drawable bg_icons 0x7f08005a
 int drawable bg_intro_btn_next 0x7f08005b
@@ -2516,6 +2516,7 @@ int drawable design_snackbar_background 0x7f08006d
 int drawable down_arrow 0x7f08006e
 int drawable edit_text_back 0x7f08006f
 int drawable home_category_btn 0x7f080070
+int drawable home_category_btn_select 0x7f0800b8
 int drawable ic_add 0x7f080071
 int drawable ic_clock_black_24dp 0x7f080072
 int drawable ic_intro1 0x7f080073
